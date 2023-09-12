@@ -172,6 +172,7 @@ justify-content: center;
 align-items: center;
 gap: 4.5rem;
 padding: 0;
+font-family: Metropolis;
 
 
 
@@ -276,19 +277,45 @@ li:nth-child(odd){
         height: 100vh;
     }
     header {
-        padding: 2.5rem 16px 6.5rem 16px;
+        padding: 2.5rem 16px 3.5rem 16px;
     }
     .page_content{
         padding: 10px 16px;
+        width: 93%;
     }
-    .footer{
-        display: none;
-    }
-    form {
-        flex-wrap: wrap;
-    }
-    .input_email{    width: 29%;}
-    .bottom{
+    .main{
         width: 100%;
     }
+   
+    form {
+        flex-wrap: wrap;
+        gap: 0;
+        row-gap: 15px;
+    }
+    .input_email{    width: 100%;
+        padding: 13px 16px;
+    }
+    .bottom{
+        width: 90%;
+    }
+    .logo_text {
+        display: none;
+    }
+    .logo{
+        background: none;
+        display: block;
+    }
+    .main h2{
+        display: none;
+    }
+   
+    .footer{
+        padding: 0px 16px;
+        flex-wrap: wrap;
+        list-style-position: inside;
+        gap: 0;
+        column-gap: 32px;
+        justify-content: normal;
+    }
+    
 }
