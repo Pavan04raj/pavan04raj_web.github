@@ -137,7 +137,7 @@ input[type=email]{
     margin: 0;
     padding: 0;
     display: flex;
-    padding: 0.75rem 13.75rem 0.75rem 1.5rem;
+    padding: 0.98rem 13.75rem 0.98rem 1.5rem;
     align-items: center;
     }
 button{
@@ -246,4 +246,44 @@ li:nth-child(odd){
     margin-top: 20px;
 }
 
+@media(max-width:1024px){
+    /* .footer {
+        padding: 1.5rem 9.3rem 2.5rem 5.8rem;
+    } */
+    body {
+        width: 181%;}
 
+    header {
+        padding: 2.5rem 70.4375rem 2.5rem 6.75rem;
+    }
+    .circle_field {
+      display: none;
+    }
+    .page_content {
+     width: 100%;   
+    }
+    ul{
+        column-gap: 3rem;
+    }
+    .footer {
+        padding: 1.5rem 9.3rem 2.5rem 6.8rem;
+        position: relative;
+        top: 280px;
+    }
+}
+@media(max-width:550px){
+    body{width: 197%;
+    }
+    header {
+        padding: 2.5rem 16px 2.5rem 16px;
+    }
+    .page_content{
+        padding: 10px 16px;
+    }
+    .footer{
+        display: none;
+    }
+    form {
+        flex-wrap: wrap;
+    }
+}
